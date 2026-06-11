@@ -1,4 +1,5 @@
 SOURCE_MODE=git
-RADROOTS_CRATES_GIT_URL=https://github.com/rad-roots-labs/crates.git
-RADROOTS_CRATES_GIT_REV=766c63c07ac7497d75a71aaab010fbc08ee934bc
-RADROOTS_APP_FFI_CRATE_VERSION=0.1.0
+RADROOTS_FIELD_LIB_GIT_URL=git@github.com:rad-roots-labs/field_lib.git
+RADROOTS_FIELD_LIB_GIT_REV=a73f486d1dca78bfb1b1c655c2404317a7ea1e5e
+RADROOTS_FIELD_FFI_CRATE_VERSION=0.1.0-alpha.1
+FFI_FEATURES=radroots_field_core/rt,radroots_field_core/nostr-client
